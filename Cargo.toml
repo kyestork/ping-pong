@@ -1,5 +1,5 @@
 [package]
-name = "simple_async_app"
+name = "ping_pong"
 description = "A concurrent PING / PONG TCP server with a remote shutdown command"
 authors = ["Kage Edwards <kage@kagenetwork.org>"]
 version = "0.1.0"

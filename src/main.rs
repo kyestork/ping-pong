@@ -5,7 +5,7 @@ use tokio::io::{AsyncBufReadExt, AsyncWriteExt};
 
 #[derive(Debug)]
 enum AppError {
-    IoError(std::io::Error),
+    IoError(std::io::Error)
 }
 
 impl From<std::io::Error> for AppError {
@@ -19,7 +19,7 @@ impl std::error::Error for AppError {}
 impl std::fmt::Display for AppError {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
-            AppError::IoError(e) => write!(f, "IO: {}", e),
+            AppError::IoError(e) => write!(f, "IO: {}", e)
         }
     }
 }
