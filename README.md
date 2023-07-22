@@ -13,4 +13,5 @@ telnet 127.0.0.1:8080
 ```
 
 **Commands:** `PING`, `STOP`
+
 **Responses:** `PONG`, `SURE`
