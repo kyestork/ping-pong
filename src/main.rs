@@ -24,7 +24,7 @@ impl std::fmt::Display for AppError {
     }
 }
 
-#[tokio::main(flavor = "multi_thread", worker_threads = 2)]
+#[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Listener for a shutdown signal
