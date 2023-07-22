@@ -1,0 +1,12 @@
+[package]
+name = "simple_async_app"
+description = "A concurrent PING / PONG TCP server with a remote shutdown command"
+authors = ["Kage Edwards <kage@kagenetwork.org>"]
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+rand = "0.8.4"
