@@ -1,4 +1,6 @@
 # PING PONG, STOP
+[![Rust](https://github.com/kyestork/ping-pong/actions/workflows/rust.yml/badge.svg)](https://github.com/kyestork/ping-pong/actions/workflows/rust.yml)
+
 A concurrent PING / PONG server with a remote shutdown command, built in Rust with the Tokio runtime
 
 
